@@ -135,12 +135,12 @@ class Computer < Player
 
   def code_choice
     code = @colour_map.keys.sample(4)
-    puts "Computer's code choice: #{code.join}"  # Debug output
+    #puts "Computer's code choice: #{code.join}"  # Debug output
     code
   end
 
   def make_guess
-    puts "Computer's guess: #{@current_guess}"
+    #puts "Computer's guess: #{@current_guess}"
     @current_guess
   end
 
